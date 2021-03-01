@@ -1,0 +1,30 @@
+*{
+	background-color: #00b22d;
+	color: white;
+	text-align: center;
+	margin: 10px auto;
+}
+div{
+	display: inline-block;
+	border: 5px solid #0a551c;
+	border-radius: 10px;
+	padding: 10px 10px;
+
+}
+
+button{
+	width: 100px;
+	color: #00b22d;
+	background-color: white;
+	border-radius: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+input{
+	width: 200px;
+	color: #000000;
+	background-color: #ffffff;
+	border-radius: 5px;
+	font-weight: bold;
+	height: 20px;
+}
