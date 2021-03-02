@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Registration Form</title>
 	<link rel="stylesheet" href="index.css">
 </head>
+
 <body>
 	<fieldset>
 		<legend>Log In</legend>
-		<input required type="text" name="Name" id="name" placeholder="Enter Your Name..."><br>
-		<input required type="password" name="password" placeholder="Enter Your Password..."><br><br>
-		<button onclick="alert('Thank You!' )">Submit</button>
+		<p>
+			Username : <input required type="text" name="Name" id="name" placeholder="Enter Your Name..."><br>
+			Password : <input required type="password" name="password" placeholder="Enter Your Password..."><br><br>
+			<button type="button" onclick="getName()">Submit</button>
+		</p>
 	</fieldset>
+	<script src="index.js"></script>
 </body>
+
 </html>

@@ -6,21 +6,28 @@
 }
 
 
-button{
-	width: 100px;
+button {
+	background-color: #ffffff; /* Green */
+	border: none;
 	color: #00b22d;
-	background-color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
 	border-radius: 10px;
 	font-weight: bold;
 	cursor: pointer;
-}
+
+    }
+    
 input{
 	width: 200px;
 	color: #000000;
 	background-color: #ffffff;
 	border-radius: 5px;
-	font-weight: bold;
-	height: 20px;
+	font-size: 15px;
+	height: 30px;
 }
 fieldset{
 	width: 500px;
@@ -32,4 +39,8 @@ legend{
 	font-size: 30px;
 	background-color: white;
 	color: #00b220;
+}
+p{
+	font-weight: bold;
+	font-size: 20px;
 }
